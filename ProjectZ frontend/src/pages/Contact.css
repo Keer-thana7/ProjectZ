@@ -1,0 +1,67 @@
+.contact-wrapper {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background-color: #F0E7DA; /* Alpine Oat */
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-title {
+  font-size: 2.2rem;
+  color: #74070E; /* Cherry Red */
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.contact-subtext {
+  font-size: 1rem;
+  color: #4E6813; /* Dill Green */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-form .form-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #4E6813; /* Dill Green */
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #B0A6DF; /* Aura Indigo */
+  border-radius: 10px;
+  outline: none;
+  background-color: white;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #74070E; /* Cherry Red */
+  color: white;
+  padding: 0.9rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+.contact-form button:hover {
+  background-color: #550507; /* darker Cherry Red for hover */
+}
