@@ -1,0 +1,72 @@
+.navbar {
+  background-color: #F0E7DA; /* Alpine Oat */
+  padding: 0.8rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #74070E; /* Cherry Red */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: #4E6813; /* Dill Green */
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-links li a:hover {
+  color: #B0A6DF; /* Aura Indigo */
+  transform: scale(1.05);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #74070E; /* Cherry Red */
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo-text-group {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+
+.tagline {
+  font-size: 0.7rem;
+  color:#194886;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5px;;
+}

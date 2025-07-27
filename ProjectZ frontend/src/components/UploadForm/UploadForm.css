@@ -1,0 +1,41 @@
+.upload-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #F0E7DA; /* Alpine Oat */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.upload-form-container h2 {
+  color: #74070E; /* Cherry Red */
+  margin-bottom: 1rem;
+}
+
+.upload-form-container input[type="file"] {
+  padding: 0.5rem;
+  border: 2px dashed #B0A6DF; /* Aura Indigo */
+  border-radius: 8px;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.upload-form-container button {
+  background-color: #4E6813; /* Dill Green */
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-form-container button:hover {
+  background-color: #3a5010;
+}
